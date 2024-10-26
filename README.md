@@ -1,7 +1,9 @@
 # Car-Rental-System
 The Car Rental System project in Java is a console-based application that simplifies the process of renting and returning cars. Designed with a straightforward user experience, this project enables users to view available cars, rent a selected car for a specified number of days, and return cars once they're done. For each rental, the system calculates the total price based on the car's daily rental rate, providing customers with a transparent breakdown of costs before confirming a rental. The system also tracks car availability in real time, ensuring that only available cars can be rented and automatically marking them as unavailable once rented.
 
-Classes and Structure:
+
+Classes and Structure:![carrental flowchart](https://github.com/user-attachments/assets/c1460a69-9f90-49c0-a571-29dcce8640a9)
+
 Car class:
 Encapsulates properties of each car (carId, brand, model, basepriceperday, isavailable).
 Provides methods to check availability, calculate rental cost, rent, and return the car.
